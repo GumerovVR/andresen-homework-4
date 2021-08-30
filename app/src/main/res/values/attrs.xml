@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnalogClock">
+        <attr name="hourArrowColor" format="color"/>
+        <attr name="minArrowColor" format="color"/>
+        <attr name="secArrowColor" format="color"/>
+
+        <attr name="hourArrowWidth" format="integer" />
+        <attr name="minArrowWidth" format="integer" />
+        <attr name="secArrowWidth" format="integer" />
+        <attr name="hourArrowHeight" format="integer" />
+        <attr name="minArrowHeight" format="integer" />
+        <attr name="secArrowHeight" format="integer" />
+    </declare-styleable>
+</resources>

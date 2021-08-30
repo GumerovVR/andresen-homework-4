@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <com.example.andresenhomework4.view.AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:hourArrowColor="@color/test_clock_color_1"
+        app:minArrowColor="@color/test_clock_color_2"
+        app:secArrowColor="#FFE082"
+
+        app:hourArrowWidth="10"
+        app:hourArrowHeight="260"
+
+        app:minArrowWidth="10"
+        app:minArrowHeight="80"
+
+        app:secArrowWidth="3"
+        app:secArrowHeight="40"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
